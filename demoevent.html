@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EVENT</title>
+</head>
+<body>
+<button type="button" onclick="clickMe()"
+        onmouseenter="hoverMe()"
+        onmouseleave="outMe()"
+>Click Me</button>
+<input onkeypress="keyPress()" onkeydown="keyDown()" onkeyup="keyUp()" onchange="changeV(this)" type="text" placeholder="Enter..."/>
+<select name="city" onchange="changeV(this)" >
+    <option value="hn">HN</option>
+    <option value="sg">SG</option>
+</select>
+
+<script type="text/javascript" src="js/listioner.js"></script>
+</body>
+</html>

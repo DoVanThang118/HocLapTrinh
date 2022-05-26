@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #bae5e5;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: left;
+    color: chocolate;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: navy;
+}
+svg{
+    color: #0d6efd;
+}
+svg:hover{
+    color: #6f42c1;
+}
+.nav{
+    background-color: #dfc2c4;
+    float: right;
+    width: 100%;
+    padding: 10px;
+}
+.nav-item{
+    list-style: none;
+}
+footer i{
+    font-size: 20px;
+    color: #146c43;
+    float: right;
+    padding: 10px;
+}
+footer i:hover{
+    color: #0a53be;
+}
+#giohang{
+    float: right;
+    margin-right: 50px;
+}
+#timkiem{
+    float: right;
+    margin-right: 100px;
+}
+
+

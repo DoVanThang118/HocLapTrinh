@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.center{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../images/demo4.jpg");
+    padding: 50px;
+}
+.lab31{
+    background-color: lightslategray;
+    width: 900px;
+    height: 100px;
+    padding: 50px;
+    text-align: center;
+}
+.lab32{
+    padding: 20px;
+    width: 175px;
+    background-color: lightgray;
+}
+.lab33{
+    width: 700px;
+    background-color: azure;
+    padding: 20px;
+}
+.lab34{
+    display: flex;
+    justify-content: center;
+    background-color: #732626;
+    width: 1000px;
+}
