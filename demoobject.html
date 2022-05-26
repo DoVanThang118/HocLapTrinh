@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Object</title>
+</head>
+<body>
+    <input onkeyup="inputName(this)" type="text" placeholder="Name"/>
+    <input onkeyup="inputAge(this)" type="number" placeholder="Age"/>
+    <input onkeyup="inputAddress(this)" type="text" placeholder="Address"/>
+    <input onkeyup="inputTel(this)" type="tel" placeholder="Telephone"/>
+    <button type="button" onclick="submit()">Submit</button>
+    <script type="text/javascript">
+        var sv ={
+            name:"",
+            age:0,
+            address:"",
+            tel:0
+        }
+        function inputName(e) {
+            sv.name = e.value;
+        }
+        function inputAge(e) {
+            sv.age = e.value;
+        }
+        function inputAddress(e) {
+            sv.address = e.value;
+        }
+        function inputTel(e) {
+            sv.tel = e.value;
+        }
+        function submit() {
+            console.log(sv);
+        }
+    </script>
+<!--    <script type="text/javascript" src="js/object.js"></script>-->
+</body>
+</html>
